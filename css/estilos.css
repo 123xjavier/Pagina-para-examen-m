@@ -1,0 +1,70 @@
+div.titulo h1{
+text-align: center;
+color: crimson;
+background-color: black;
+padding: 30px;
+font-family: arial black;
+}
+div.col-2 img{
+    width: 150px;
+    height: 150px;
+}
+div.logo{
+    background-color: black;
+    padding: 10px;
+}
+div.col-10 a{
+    font-family: arial black;
+}
+
+div.cont img{
+    width: 1000px;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+}
+div.cont{
+    background: rgb(0,5,36);
+background: radial-gradient(circle, rgba(0,5,36,1) 25%, rgba(205,39,107,1) 75%, rgba(235,11,201,1) 100%, rgba(177,173,232,1) 100%);
+    padding: 20px;
+}
+div.contenido h2{
+    font-family: arial black;
+    text-decoration: underline;
+    color: mediumvioletred;
+}
+div.contenido p{
+    font-family: arial black;
+    color: red;
+}
+div.contenido{
+    padding: 20px;
+    background-color:black;
+}
+div.icon i{
+    font-size: 80px;
+    color:antiquewhite;
+    
+}
+div.icon{
+    background-image:url(../img/fondo.jpg);
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: cover;   
+}
+div.icon img{
+    width: 500px;
+    height: 500px;
+}
+div.icon h2{
+    color:antiquewhite;
+}
+div.foto{
+    margin: 30px;
+}
+
+div.cuatro{
+   width: 500px;
+   height: 500px;
+    
+}
