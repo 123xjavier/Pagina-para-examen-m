@@ -24,9 +24,11 @@ div.cont img{
     justify-content: center;
 }
 div.cont{
-    background: rgb(0,5,36);
-background: radial-gradient(circle, rgba(0,5,36,1) 25%, rgba(205,39,107,1) 75%, rgba(235,11,201,1) 100%, rgba(177,173,232,1) 100%);
-    padding: 20px;
+   background-image: url(../img/fondo1.png);
+   background-repeat:no-repeat;
+    background-position: center center;
+    background-size: cover;   
+    padding: 30px;
 }
 div.contenido h2{
     font-family: arial black;
@@ -38,8 +40,9 @@ div.contenido p{
     color: red;
 }
 div.contenido{
-    padding: 20px;
+   padding: 20px;
     background-color:black;
+    justify-content: center;
 }
 div.icon i{
     font-size: 80px;
@@ -67,4 +70,7 @@ div.cuatro{
    width: 500px;
    height: 500px;
     
+}
+div.a{
+    padding: 30px;
 }
