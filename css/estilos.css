@@ -13,6 +13,12 @@ div.logo{
     background-color: black;
     padding: 10px;
 }
+
+div.logo a{
+    color: aqua;
+    margin-left: 50px;
+}
+
 div.col-10 a{
     font-family: arial black;
 }
@@ -32,16 +38,21 @@ div.cont{
 }
 div.contenido h2{
     font-family: arial black;
-    text-decoration: underline;
-    color: mediumvioletred;
+    color: white;
+    margin-left: 15px;
 }
 div.contenido p{
     font-family: arial black;
-    color: red;
+    color: white;
+    margin-left: 15px;
+    
 }
 div.contenido{
    padding: 20px;
-    background-color:black;
+
+   background: rgb(41,30,1);
+   background: linear-gradient(150deg, rgba(41,30,1,1) 11%, rgba(103,43,15,1) 29%,
+    rgba(205,125,39,1) 59%, rgba(205,164,39,1) 84%, rgba(205,200,39,1) 94%);
     justify-content: center;
     margin: 30px;
 
@@ -55,20 +66,27 @@ div.contenido{
 div.icon i{
     font-size: 80px;
     color:antiquewhite;
+    display: flex;
+    align-items: center;
+    padding: 15px;
     
 }
 div.icon{
     background-image:url(../img/fondo.jpg);
     background-repeat:no-repeat;
     background-position: center center;
-    background-size: cover;   
+    background-size: cover;
+     
 }
 div.icon img{
+    
     width: 500px;
     height: 500px;
 }
 div.icon h2{
     color:antiquewhite;
+    display: flex;
+    align-items: center;
 }
 /*nuevo css*/
 
@@ -84,10 +102,10 @@ div.a{
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-
+    
 }
 div.a img{
-    padding: 10px;
+    padding: 10px ;
 }
 
 
@@ -110,6 +128,16 @@ color: white;
 div.p-3{
 width: 490px;
 }
+
+
+div.mas{
+    display:flex;
+   justify-content: center;
+}
+
+
+
+
 
 /* comienzo de formulario*/
 
@@ -156,4 +184,48 @@ form{width: 80%;}
 }
 
 
+div.footeq i{
+    font-size: 40px;
+
+}
+div.footeq h2{
+    font-family: arial black;
+}
+div.col button{
+    border-radius: 8px 8px;
+    padding: 6px;
+    border-color: aquamarine;
+    font-family: arial ;
+}
+
+div.allfooteq{
+    background: rgb(0,5,36);
+    background: linear-gradient(180deg, rgba(0,5,36,1) 25%,
+ rgba(1,11,41,1) 26%, rgba(39,203,205,1) 92%, rgba(39,203,205,1) 92%);
+    padding: 3px;
+    margin-top: 15px;
+    color: white;
+   
+}
+
+.boton-flotante {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+    background: rgb(1,11,41);
+    background: radial-gradient(circle, rgba(1,11,41,1) 15%,
+     rgba(0,5,36,1) 31%, rgba(39,203,205,1) 57%, rgba(39,203,205,1) 92%);
+
+    color: #fff;
+    border: none;
+    border-radius: 70%;
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    line-height: 60px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
 
