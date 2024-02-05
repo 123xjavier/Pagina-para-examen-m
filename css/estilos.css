@@ -43,6 +43,14 @@ div.contenido{
    padding: 20px;
     background-color:black;
     justify-content: center;
+    margin: 30px;
+
+    border-radius: 15px 0px 15px 0px;
+
+    -webkit-box-shadow: -27px 21px 22px -8px rgba(0,0,0,0.71);
+    -moz-box-shadow: -27px 21px 22px -8px rgba(0,0,0,0.71);
+    box-shadow: -27px 21px 22px -8px rgba(0,0,0,0.71);  
+
 }
 div.icon i{
     font-size: 80px;
@@ -62,15 +70,90 @@ div.icon img{
 div.icon h2{
     color:antiquewhite;
 }
-div.foto{
-    margin: 30px;
-}
+/*nuevo css*/
 
-div.cuatro{
-   width: 500px;
-   height: 500px;
-    
-}
 div.a{
     padding: 30px;
+    border-radius: 10px 10px;
+    background: rgb(4,3,17);
+    background: linear-gradient(90deg, rgba(4,3,17,1) 26%,
+  rgba(84,9,73,1) 64%, rgba(255,0,23,1) 98%);
+    margin: 30px;
+    justify-items: center;
+    color: white; 
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
 }
+div.a img{
+    padding: 10px;
+}
+
+
+/*aashdhabdbasdbashdasj*/
+
+div.card-6{
+border-radius: 15px;
+padding: 15px;
+
+-webkit-box-shadow: 15px 11px 12px 11px rgba(0,0,0,0.75);
+-moz-box-shadow: 15px 11px 12px 11px rgba(0,0,0,0.75);
+box-shadow: 15px 11px 12px 11px rgba(0,0,0,0.75);
+
+background: rgb(4,3,17);
+background: radial-gradient(circle, rgba(4,3,17,1) 30%,
+ rgba(9,17,84,1) 67%, rgba(0,129,255,1) 97%);
+color: white;
+}
+
+div.p-3{
+width: 490px;
+}
+
+/* comienzo de formulario*/
+
+
+div.formul{
+margin-top: 30px;
+}
+
+form{
+width: 60%;
+padding: 3%;
+border-radius: 8px;
+margin: auto;
+color: white;
+font-family: arial ;
+
+background: rgb(4,3,17);
+background: radial-gradient(circle, rgba(4,3,17,1) 30%,
+rgba(9,17,84,1) 67%, rgba(0,129,255,1) 97%);
+
+
+-webkit-box-shadow: 15px 20px 12px 9px rgba(111,184,189,1);
+-moz-box-shadow: 15px 20px 12px 9px rgba(111,184,189,1);
+box-shadow: 15px 20px 12px 9px rgba(111,184,189,1);
+
+}
+div.abcd{
+display:flex;
+flex-direction: column;
+}
+label{
+margin-bottom: 5px;
+font-weight: bold;
+/* text-decoration: underline;*/
+}
+input{
+margin-bottom: 12px; 
+border-radius: 5px;
+border: solid paleturquoise;
+}
+
+@media(max-width:618px){
+form{width: 80%;}
+}
+
+
+

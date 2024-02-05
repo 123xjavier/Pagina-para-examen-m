@@ -134,24 +134,148 @@
   </div>
 </div>
 
-
+<!--nuevo html-->
 
 <div class="a">
-<div class="container text-center">
-  <div class="row align-items-center">
-    <div class="col">
-      <img src="img/rock.webp" width="400px" height="300px" alt="">
-    </div>
-     <div class="col">
-     <h1> Linkin Park</h1>
-     <p>akjhsbjkdbaskjdbksabdkjsabdkjasbdkjasbdkjasbdjbasdkjbasjkdbjkasbdkjasdbk
-      lkjshabkjdbsakjdbkjasbdkasbdkj
-     </p>
+  <div class="container text-center">
+    <div class="row align-items-center">
+      <div class="col">
+        <img src="img/rock.webp" width="350px" height="300px"  alt="">
+      </div>
+       <div class="col">
+       <h1> Linkin Park</h1>
+       <p>Linkin Park es una banda estadounidense de rock alternativo procedente de Agoura Hills, California formada en 1996. Integrada por Mike Shinoda, Dave Farrell, Joe Hahn, Brad Delson, 
+          Rob Bourdon y Chester Bennington, este último como voz principal. La banda comenzó con sus primeros trabajos musicales de manera independiente, en la que grabaron su primer material, llamado Xero; sin embargo,
+           no tuvieron éxito en la búsqueda de un sello discográfico, ya que nadie mostraba interés 
+          por su trabajo. No fue hasta 1999, que con el apoyo de Jeff Blue, quien ejercía como vicepresidente de Warner Records, lograron firmar su primer contrato. El nombre proviene de un juego de palabras que hace referencia al Lincoln Park en Santa Mónica
+       </p>
+      </div>
     </div>
   </div>
-</div>
+  </div>
+  
+  
+  
+  <div class="a">
+      <div class="container text-center">
+        <div class="row align-items-center">
+          <div class="col">
+            <img src="img/rock2.webp" width="350px" height="300px"  alt="">
+          </div>
+           <div class="col">
+           <h1> 30 Seconds</h1>
+           <p>
+              30 Seconds to Mars (también Thirty Seconds to Mars, abreviado como 30STM9​ o TSTM10​) es una banda estadounidense de rock alternativo formada en 1998 en Los Ángeles (California). Integrada originalmente por tres miembros:
+               Jared Leto (voz, guitarra), Matt Wachter (bajo, sintetizador) y Shannon Leto (batería), a quienes más   
+              tarde se les uniría el guitarrista Solon Bixler.
+               Después de la publicación de su álbum debut, el guitarrista Solon Bixler salió de la banda debido a problemas durante su primera gira, poco después fue sustituido por el guitarrista Tomo Milicevic.11​ Después de la salida de Matt Wachter (ahora en Angels & Airwaves), Jared Leto se convirtió en el bajista de la banda.
+           </p>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      
+      <div class="container px-4 text-center">
+        <div class="row gx-5">
+          <div class="col">
+           <div class="p-3">
+
+<div class="card-6">
+  <h2>Richard Z. Kruspe</h2>
+  <p class="card-text"> Richard Zven Kruspe (Wittenberge, República Democrática Alemana, 24 de junio de 1967) es un músico alemán, guitarrista de la banda alemana Rammstein y la neoyorquina
+     Emigrate, en la que además canta en inglés.</p>
+  <div class="card-body">
+    <img src="img/ramms.jpg" class="card-img-top" alt="...">
+  </div>
 </div>
 
+           </div>
+          </div>
+          <div class="col">
+            <div class="p-3">
+
+  <div class="card-6">
+    <h2> DJ Ashba </h2>
+    <p class="card-text">Daren Jay Ashba (Monticello,
+       Indiana, 10 de noviembre de 1972) 
+       es un guitarrista estadounidense, empresario, compositor y productor de hard rock. Actualmente es el guitarrista de la banda Sixx:A.M.
+    </p>
+    <div class="card-body">
+      <img src="img/sixx.jpg" width="166.72" height="293px"  class="card-img-top" alt="...">
+    </div>
+  </div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!-- formulario-->
+<div class="formul">
+<form  name="formulario" action="ejecutar-codigo.php" method="post" id="miFormulario">
+  <div  class="abcd">
+      <label for="mitexto">Nombre</label>
+      <input type=" text" id="mitexto" placeholder="Escribe tu usuario..." 
+      title="Escribe solo en minusculas y no mas de 15 caracteres" 
+      pattern="[a-z]{1,15}">
+      <label for="mitexto">Apellido</label>
+      <input type="text" id="mitexto" placeholder="Escribe tus Apellido..."
+       title="Escribe solo en minusculas y no mas de 15 caracteres"
+      pattern="[a-z]{1,15}">
+  </div>
+  <br>
+  <div  class="abcd">
+      <label for="telefono">Telefono</label>
+      <input type="number" id="telefono" placeholder="Escribe tu telefono.."
+       min="1" max="9"  required>
+  </div>
+  <br>
+  <div class="abcd">
+  <label for="correo">Email</label>
+  <input type="email" id="correo" placeholder="Escribe tu email" required>
+  </div>
+
+  <br>
+
+  <div  class="abcd">
+     <fieldset>
+     <legend style="text-align: center; text-decoration: underline;"> Tiene licencias de Conducir</legend>
+      <label for="primero">SI</label>
+      <input type="radio" id="primero" name="edades">
+      <br>
+      <label for="segundo">NO</label>
+      <input type="radio" id="segundo" name="edades" >
+      <br>
+     </fieldset>
+  </div>
+  <br>
+
+  <div  class="abcd">
+    <fieldset>
+      <legend style="text-align: center; text-decoration: underline;" > Protección de Datos</legend>
+      <input type="checkbox" id="primero" name="datos-ck">
+      <label for="primero-ck">Acepta y conciente dar la informacion personal de este formulario.</label>
+      <br>
+      <br>
+    </fieldset>
+  </div>
+  <br>
+  <div  class="abcd">
+      <label for="comentarios">Escriba su comentario</label>
+     <textarea name="Mensajes" id="comentarios" cols="30" rows="10" 
+     maxlength="300" placeholder="Escribe su comentarios com max de 300 caracteres"></textarea>
+  </div>    
+     <br>   
+     <label for=""> Resetear Formulario</label> 
+     <br> 
+  <input type="reset" value="Resetear">  
+  <br>        
+  <br>
+  <input type="submit" value="Enviar">
+</form>
+</div>
 
 
 
